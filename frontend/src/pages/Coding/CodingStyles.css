@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  
+  .leftColumn {
+    width: 20%;
+    background-color: #e6e6e6; /* or any color you prefer */
+    padding: 10px;
+    box-sizing: border-box;
+    word-wrap: break-word; /* Break the word in case of overflow */
+    overflow: auto; /* Add scrollbar in case of overflow */
+  }
+  
+  .midColumn {
+    width: 100%; /* replace column2Percentage with your value */
+    background-color: #cccccc; /* or any color you prefer */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .rightColumn {
+    width: 10%; /* replace column3Percentage with your value */
+    background-color: #b3b3b3; /* or any color you prefer */
+    padding: 10px;
+    box-sizing: border-box;
+  }
